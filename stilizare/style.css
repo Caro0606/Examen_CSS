@@ -1,0 +1,174 @@
+.container {
+    width: 100%;
+    align-items: center;
+    background-color: rgb(236, 234, 200);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+ @media screen and(min-width:768) {
+    .clasa2 {
+        flex-direction: row;
+    }
+ }
+  * {
+    margin: 5px;
+    padding: 0px;
+  }
+
+
+.logo {
+    font-size: 290%;
+    display: flex;
+    transition: color 0.5s ease-in-out;
+    border-style: solid;
+    border-radius: 7px;
+    color: rgb(233, 18, 18);
+    
+}
+
+.logo:hover {
+    color: royalblue;
+}
+
+
+.despre {
+    color: red;
+    font-size: 17px;
+    display: flex;
+    
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+
+.titluri {
+    display: flex;
+    font-size: 130%;
+    flex-direction: column;
+
+}
+
+h2 {
+    display: flex;
+   align-items: center;
+    flex-direction: column;
+
+}
+
+h1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: color 0.5s ease-in-out;
+    color: rgb(60, 153, 60);
+
+
+}
+
+h1:hover {
+    color: blueviolet;
+}
+
+
+h3 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: xx-large;
+}
+
+.paragraf {
+    display: flex;
+    flex-direction: column;
+    font-size: 130%;
+   
+}
+
+b {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 130%;
+
+}
+
+.clasa1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 130%;
+}
+
+.clasa2 {
+    display: flex;
+    flex-direction: column;
+    font-size: 130%;
+   align-items: center;
+   left: 50px;
+   line-height: 24px;
+}
+
+#top {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: red;
+}
+
+.clasa3 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    line-height: 24px;
+    
+}
+
+.clasa4 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 100%;
+    line-height: 25px;
+    left: 55%;
+}
+
+.clasa5 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  
+}
+
+.clasa6 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+   
+}
+
+.clasa7 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+p {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+img {
+display:block;
+margin: 0 auto;
+max-width: 100%;
+height: auto;
+}
